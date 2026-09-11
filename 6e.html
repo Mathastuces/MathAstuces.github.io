@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>MathAstuces — 6e</title>
+    <title>MathsAstuces</title>
 
     <style>
         * {
@@ -23,17 +23,126 @@
             background: #1f3c88;
             color: white;
             text-align: center;
-            padding: 45px 20px;
+            padding: 60px 20px;
         }
 
         header h1 {
-            font-size: 40px;
-            margin: 0 0 10px;
+            font-size: 42px;
+            margin: 0 0 15px;
         }
 
         header p {
             font-size: 20px;
             margin: 0;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .levels {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 18px;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h3 {
+            font-size: 28px;
+            margin-top: 0;
+        }
+
+        .card p {
+            color: #666;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 12px 22px;
+            background: #1f3c88;
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+        }
+
+        footer {
+            margin-top: 60px;
+            padding: 25px;
+            text-align: center;
+            background: #1f3c88;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>📐 MathsAstuces</h1>
+    <p>Bienvenue sur mon espace de mathématiques !</p>
+</header>
+
+<div class="container">
+
+    <h2>Choisis ton niveau</h2>
+
+    <div class="levels">
+
+        <div class="card">
+            <h3>6e</h3>
+            <p>Cours, exercices et activités de mathématiques.</p>
+            <a class="button" href="#">Découvrir</a>
+        </div>
+
+        <div class="card">
+            <h3>5e</h3>
+            <p>Cours, exercices et activités de mathématiques.</p>
+            <a class="button" href="#">Découvrir</a>
+        </div>
+
+        <div class="card">
+            <h3>4e</h3>
+            <p>Cours, exercices et activités de mathématiques.</p>
+            <a class="button" href="#">Découvrir</a>
+        </div>
+
+        <div class="card">
+            <h3>3e</h3>
+            <p>Cours, exercices et préparation au brevet.</p>
+            <a class="button" href="#">Découvrir</a>
+        </div>
+
+    </div>
+
+</div>
+
+<footer>
+    © 2026 — MathsAstuces
+</footer>
+
+</body>
+</html>
+```
         }
 
         nav {
