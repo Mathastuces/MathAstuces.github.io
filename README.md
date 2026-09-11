@@ -1,1 +1,1 @@
-# MathAstuces.github.io
+# MathsAstuces.github.io
