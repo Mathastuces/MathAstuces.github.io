@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>MathsAstuces — Nombres et calculs — 6e</title>
+    <title>MathsAstuces — Les nombres entiers — 6e</title>
 
     <style>
         * {
@@ -145,7 +145,7 @@
 <body>
 
 <header>
-    <h1>🔢 Nombres et calculs</h1>
+    <h1>🔢 Les nombres entiers</h1>
     <p>Mathématiques — Classe de 6e</p>
 </header>
 
@@ -160,7 +160,7 @@
 <div class="container">
 
     <div class="intro">
-        <h2>Nombres et calculs 📚</h2>
+        <h2>Les nombres entiers 📚</h2>
 
         <p>
             Retrouve ici toutes les ressources du chapitre :
